@@ -1,6 +1,10 @@
 # Hackintosh-EFI-HP_Elite_Slice
 ## 惠普 Elite Slice，黑苹果，EFI
 
+### 小主机简介
+这台主机外观很漂亮，可以当作一台Mac mini
+![小主机外观.jpeg](https://github.com/demon3434/Hackintosh-EFI-HP400G2DM/blob/main/OpenCore%20v0.7.9%20%26%20%20macOS%20Big%20Sur%2011.6.5%20(20G527)%20%26%20BCM94352Z%20%E5%81%B6%E5%B0%94%E5%8D%A1%E9%A1%BF%EF%BC%8C%E5%BC%83%E7%94%A8/2.%E8%93%9D%E7%89%99.png "小主机外观")
+
 ### 软件版本
 | 软件 | 版本 |
 | --- | :--: |
@@ -42,6 +46,4 @@
 ### 效果图
 ![关于本机.png](https://github.com/demon3434/Hackintosh-EFI-HP400G2DM/blob/main/OpenCore%20v0.8.0%20%26%20macOS%20Big%20Sur%2011.6.5%20(20G527)%20%26%20BCM94352Z/1.%E5%85%B3%E4%BA%8E%E6%9C%AC%E6%9C%BA.png "关于本机")
 ![PlatformInfo机型选择.png](https://github.com/demon3434/Hackintosh-EFI-HP400G2DM/blob/main/OpenCore%20v0.8.0%20%26%20macOS%20Big%20Sur%2011.6.5%20(20G527)%20%26%20BCM94352Z/2.PlatformInfo%E6%9C%BA%E5%9E%8B%E9%80%89%E6%8B%A9.png "PlatformInfo机型选择")
-![蓝牙.png](https://github.com/demon3434/Hackintosh-EFI-HP400G2DM/blob/main/OpenCore%20v0.7.9%20%26%20%20macOS%20Big%20Sur%2011.6.5%20(20G527)%20%26%20BCM94352Z%20%E5%81%B6%E5%B0%94%E5%8D%A1%E9%A1%BF%EF%BC%8C%E5%BC%83%E7%94%A8/2.%E8%93%9D%E7%89%99.png "蓝牙")
-![Hackintool系统信息.png](https://github.com/demon3434/Hackintosh-EFI-HP400G2DM/blob/main/OpenCore%20v0.8.0%20%26%20macOS%20Big%20Sur%2011.6.5%20(20G527)%20%26%20BCM94352Z/3.Hackintool%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF(%E6%B3%A8%E6%84%8F%E6%9C%BA%E5%9E%8B).png "Hackintool系统信息")
 
