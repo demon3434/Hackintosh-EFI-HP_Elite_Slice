@@ -3,7 +3,7 @@
 
 ### 小主机简介
 这台主机外观很漂亮，可以当作一台Mac mini。  
-附上[惠普官网的简介](https://support.hp.com/cn-zh/product/hp-elite-slice/12710078/document/c05276346)（或者[惠普网站另存的PDF文件](https://github.com/demon3434/Hackintosh-EFI-HP_Elite_Slice/blob/main/HP%20Elite%20Slice%20%E8%A7%84%E6%A0%BC%20_%20HP%C2%AE%E5%AE%A2%E6%88%B7%E6%94%AF%E6%8C%81.pdf)）
+附上[惠普官网的简介](https://support.hp.com/cn-zh/product/hp-elite-slice/12710078/document/c05276346)（或者[惠普网站另存的PDF文件](https://github.com/demon3434/Hackintosh-EFI-HP_Elite_Slice/blob/main/HP%20Elite%20Slice%20%E8%A7%84%E6%A0%BC%20_%20HP%C2%AE%E5%AE%A2%E6%88%B7%E6%94%AF%E6%8C%81.pdf)）  
 ![小主机外观.jpeg](https://github.com/demon3434/Hackintosh-EFI-HP_Elite_Slice/blob/main/%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%A4%96%E8%A7%82.jpeg "小主机外观")
 
 ### 软件版本
