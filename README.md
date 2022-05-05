@@ -31,7 +31,7 @@
 + DP、HDMI接口能亮屏，Type-C口未测试
 + DP接口睡眠可唤醒，HDMI睡眠无法唤醒
 + USB定制，所有USB接口正常
-+ NVMe硬盘装Win10，OC可引导Win10
++ Sata硬盘装Win10，OC可引导Win10
 + 引导界面图形化，开机没有“duang”声音
 
 ### 缺陷
