@@ -355,10 +355,10 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,3</string>
+				<key>device-id</key>
+				<data>cJ0AAA==</data>
 				<key>device_type</key>
 				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 				<key>layout-id</key>
 				<data>DQAAAA==</data>
 				<key>model</key>
@@ -366,8 +366,6 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,GfxYTile</key>
-				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>AAASGQ==</data>
 				<key>AAPL,slot-name</key>
@@ -378,8 +376,6 @@
 				<string>VGA compatible controller</string>
 				<key>disable-external-gpu</key>
 				<data>AQAAAA==</data>
-				<key>enable-hdmi-dividers-fix</key>
-				<data>AQAAAA==</data>
 				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-busid</key>
@@ -388,12 +384,14 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
 				<data>AAQAAA==</data>
-				<key>framebuffer-con2-busid</key>
-				<data>BAAAAA==</data>
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con2-type</key>
 				<data>AAgAAA==</data>
+				<key>framebuffer-con3-busid</key>
+				<data>AgAAAA==</data>
+				<key>framebuffer-con3-enable</key>
+				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
 				<key>framebuffer-patch-enable</key>
@@ -402,8 +400,6 @@
 				<data>AAAwAQ==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 				<key>model</key>
 				<string>Intel HD Graphics 530</string>
 			</dict>
@@ -1531,9 +1527,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02507303J9GPF7JA</string>
+			<string>C07816405GUKXPG1H</string>
 			<key>ProcessorType</key>
-			<integer>1541</integer>
+			<integer>1801</integer>
 			<key>ROM</key>
 			<data>GnZD/4Na</data>
 			<key>SpoofVendor</key>
@@ -1543,9 +1539,9 @@
 			<key>SystemProductName</key>
 			<string>Macmini8,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02P8TZ3GG7L</string>
+			<string>C07WL4Z4JYVX</string>
 			<key>SystemUUID</key>
-			<string>FD9DDBEF-78EB-4B4B-8747-5B7E1B4B3ED2</string>
+			<string>9741F5E6-DB87-49F3-B781-E81A76D1B84B</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
