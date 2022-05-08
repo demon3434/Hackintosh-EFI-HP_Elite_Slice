@@ -2,8 +2,9 @@
 ## 惠普 Elite Slice，黑苹果，EFI
 
 ### 小主机简介
-这台主机外观很漂亮，可以当作一台Mac mini
-![小主机外观.jpeg](https://github.com/demon3434/Hackintosh-EFI-HP400G2DM/blob/main/OpenCore%20v0.7.9%20%26%20%20macOS%20Big%20Sur%2011.6.5%20(20G527)%20%26%20BCM94352Z%20%E5%81%B6%E5%B0%94%E5%8D%A1%E9%A1%BF%EF%BC%8C%E5%BC%83%E7%94%A8/2.%E8%93%9D%E7%89%99.png "小主机外观")
+这台主机外观很漂亮，可以当作一台Mac mini。  
+附上[惠普官网的简介](https://support.hp.com/cn-zh/product/hp-elite-slice/12710078/document/c05276346)（或者[惠普网站另存的PDF文件](https://github.com/demon3434/Hackintosh-EFI-HP_Elite_Slice/blob/main/HP%20Elite%20Slice%20%E8%A7%84%E6%A0%BC%20_%20HP%C2%AE%E5%AE%A2%E6%88%B7%E6%94%AF%E6%8C%81.pdf)）  
+![小主机外观.jpeg](https://github.com/demon3434/Hackintosh-EFI-HP_Elite_Slice/blob/main/%E5%B0%8F%E4%B8%BB%E6%9C%BA%E5%A4%96%E8%A7%82.jpeg "小主机外观")
 
 ### 软件版本
 | 软件 | 版本 |
@@ -18,7 +19,7 @@
 | CPU | Intel Core i5 6600T |
 | 内存 | 英睿达 DDR4 2133 4G*2 |
 | 硬盘 | 三星SM961 256GB |
-| 显卡 | Intel UHD Graphics 530 |
+| 显卡 | Intel HD Graphics 530 |
 | 显示器 | DIY便携屏，4K 60Hz |
 | 声卡 | Conexant CX7501 |
 | 无线网卡 | DW1560 |
@@ -27,14 +28,22 @@
 + 核显正常驱动，2048MB显存
 + 声卡正常驱动
 + Wi-Fi、蓝牙正常驱动。Big Sur 11.6.5 (20G527) 下可以双向隔空投送
-+ DP、HDMI接口能亮屏，DP口未测试
-+ DP接口睡眠可唤醒，HDMI睡眠无法唤醒
++ DP、HDMI接口能亮屏，Type-C口未测试
++ DP接口睡眠可唤醒，HDMI睡眠无法唤醒，机身后方的Type-C在开机第二阶段黑屏
 + USB定制，所有USB接口正常
-+ NVMe硬盘装Win10，OC可引导Win10
++ Sata硬盘装Win10，OC可引导Win10
 + 引导界面图形化，开机没有“duang”声音
 
 ### 缺陷
-+ HDMI睡眠无法唤醒
++ HDMI睡眠花屏，禁用睡眠、休眠（转发CSDN教程原文地址：[黑苹果完全禁用睡眠](https://blog.csdn.net/fjh1997/article/details/112559539)）
+```bash
+# Before doing anything, save your current configuration using
+pmset -g
+# To disable sleep 彻底禁用
+sudo pmset -a sleep 0; sudo pmset -a hibernatemode 0; sudo pmset -a disablesleep 1;
+# And to go back to normal 还原
+sudo pmset -a sleep 1; sudo pmset -a hibernatemode [original hibernatemode value]; sudo pmset -a disablesleep 0;
+```
 + 隔空投送，Monterey下只能接收，不能发送
 
 ### 备注
@@ -45,5 +54,4 @@
 
 ### 效果图
 ![关于本机.png](https://github.com/demon3434/Hackintosh-EFI-HP400G2DM/blob/main/OpenCore%20v0.8.0%20%26%20macOS%20Big%20Sur%2011.6.5%20(20G527)%20%26%20BCM94352Z/1.%E5%85%B3%E4%BA%8E%E6%9C%AC%E6%9C%BA.png "关于本机")
-![PlatformInfo机型选择.png](https://github.com/demon3434/Hackintosh-EFI-HP400G2DM/blob/main/OpenCore%20v0.8.0%20%26%20macOS%20Big%20Sur%2011.6.5%20(20G527)%20%26%20BCM94352Z/2.PlatformInfo%E6%9C%BA%E5%9E%8B%E9%80%89%E6%8B%A9.png "PlatformInfo机型选择")
-
+![PlatformInfo机型选择.png](https://github.com/demon3434/Hackintosh-EFI-HP_Elite_Slice/blob/main/OpenCore%20v0.8.0%20%26%20macOS%20Monterey%2012.3.1%20(21E258)/2.PlatformInfo%E6%9C%BA%E5%9E%8B%E9%80%89%E6%8B%A9.png "PlatformInfo机型选择")
