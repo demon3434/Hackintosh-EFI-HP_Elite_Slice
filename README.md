@@ -35,7 +35,15 @@
 + 引导界面图形化，开机没有“duang”声音
 
 ### 缺陷
-+ HDMI睡眠无法唤醒
++ 睡眠花屏，禁用睡眠、休眠（转发CSDN教程原文地址：[黑苹果完全禁用睡眠](https://blog.csdn.net/fjh1997/article/details/112559539)）
+```bash
+# Before doing anything, save your current configuration using
+pmset -g
+# To disable sleep 彻底禁用
+sudo pmset -a sleep 0; sudo pmset -a hibernatemode 0; sudo pmset -a disablesleep 1;
+# And to go back to normal 还原
+sudo pmset -a sleep 1; sudo pmset -a hibernatemode [original hibernatemode value]; sudo pmset -a disablesleep 0;
+```
 + 隔空投送，Monterey下只能接收，不能发送
 
 ### 备注
