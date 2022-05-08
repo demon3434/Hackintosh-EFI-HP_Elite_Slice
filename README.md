@@ -29,13 +29,13 @@
 + 声卡正常驱动
 + Wi-Fi、蓝牙正常驱动。Big Sur 11.6.5 (20G527) 下可以双向隔空投送
 + DP、HDMI接口能亮屏，Type-C口未测试
-+ DP接口睡眠可唤醒，HDMI睡眠无法唤醒
++ DP接口睡眠可唤醒，HDMI睡眠无法唤醒，机身后方的Type-C在开机第二阶段黑屏
 + USB定制，所有USB接口正常
 + Sata硬盘装Win10，OC可引导Win10
 + 引导界面图形化，开机没有“duang”声音
 
 ### 缺陷
-+ 睡眠花屏，禁用睡眠、休眠（转发CSDN教程原文地址：[黑苹果完全禁用睡眠](https://blog.csdn.net/fjh1997/article/details/112559539)）
++ HDMI睡眠花屏，禁用睡眠、休眠（转发CSDN教程原文地址：[黑苹果完全禁用睡眠](https://blog.csdn.net/fjh1997/article/details/112559539)）
 ```bash
 # Before doing anything, save your current configuration using
 pmset -g
